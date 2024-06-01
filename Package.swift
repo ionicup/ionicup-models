@@ -5,6 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "ionicup-models",
+    platforms: [
+        .macOS(.v14),
+        .iOS(.v17)
+    ],
     products: [
         .library(name: "IonicupModels", targets: ["IonicupModels"])
     ],
